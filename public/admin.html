@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="admin-panel">
+        <h2>Admin Panel</h2>
+        <form id="banUserForm">
+            <input type="text" name="username" placeholder="Username to ban" required>
+            <button type="submit">Ban User</button>
+        </form>
+
+        <form id="banForumForm">
+            <input type="text" name="forumName" placeholder="Forum to ban" required>
+            <button type="submit">Ban Forum</button>
+        </form>
+
+        <button id="blockServers">Block Servers</button>
+        <p id="serverStatus"></p>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
